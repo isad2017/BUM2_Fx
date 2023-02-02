@@ -10,6 +10,7 @@ import java.io.IOException;
 public class FlightBookingGUI extends Application {
     @Override
     public void start(Stage stage) throws IOException {
+        // testing a small change
         FXMLLoader fxmlLoader = new FXMLLoader(FlightBookingGUI.class.getResource("FlightBooking.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 620, 540);
         stage.setTitle("Aeroplof Booking Center");
